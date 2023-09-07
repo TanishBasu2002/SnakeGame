@@ -1,5 +1,5 @@
 # Importes
-from turtle import Screen, Turtle
+from turtle import Screen , Turtle
 from onstartup import onStartup
 from snake import Snake
 from food import Food, BigFood
@@ -192,7 +192,7 @@ screen.onkey(fun=playButton, key="1")
 
 screen.onkey(fun=controlsButton, key="5")
 
-screen.onkey(fun=backButton, key="*")
+screen.onkey(fun=backButton, key="b")
 
 screen.onkey(fun=exitButton, key="0")
 
